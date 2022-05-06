@@ -45,7 +45,7 @@ let swiperPopular = new Swiper(".popular__container", {
     grabCursor: true,
 
     pagination: {
-        el: ".swiper__pagination",
+        el: ".swiper-pagination",
         dynamicBullets: true,
     },
 
