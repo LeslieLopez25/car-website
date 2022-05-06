@@ -68,3 +68,10 @@ let mixerFeatured = mixitup(".featured__content", {
         duration: 300
     }
 });
+
+// LINK ACTIVE FEATURED
+const linkFeatured = document.querySelectorAll(".featured__item");
+
+function activeFeatured() {
+    linkFeatured.forEach(l => l.classList.remove("active-featured"));
+}
