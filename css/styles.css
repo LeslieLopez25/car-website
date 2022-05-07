@@ -880,3 +880,8 @@ img {
 .scrollup:hover {
     transform: translateY(-.25rem);
 }
+
+/* SHOW SCROLL UP */
+.show-scroll {
+    bottom: 3rem;
+}
