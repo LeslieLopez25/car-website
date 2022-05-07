@@ -226,6 +226,11 @@ img {
     box-shadow: 0 2px 4px hsla(0, 0%, 1%, 1);
 }
 
+/* ACTIVE LINK */
+.active-link {
+    color: var(--first-color);
+}
+
 /* HOME */
 .home {
     position: relative;
